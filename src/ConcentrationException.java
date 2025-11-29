@@ -3,7 +3,8 @@ public class ConcentrationException extends Exception {
     int c;
 
     // constructors
-    public ConcentrationException(int c) {
+    public ConcentrationException(int c, String msg) {
+        super(msg);
         this.c = c;
     }
 
