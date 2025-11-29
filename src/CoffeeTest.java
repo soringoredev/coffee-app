@@ -7,6 +7,9 @@ public class CoffeeTest {
         for (int i = 0; i < 5; i++) {
             Coffee coffee = mk.makeCoffee();
 
+            System.out.println("CAFEAUA NUMARUL " + (i + 1));
+            System.out.println();
+
             try {
                 d.drinkCoffee(coffee);
             } catch (TemperatureException e) {
