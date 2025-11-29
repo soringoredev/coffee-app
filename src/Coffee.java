@@ -8,6 +8,10 @@ public class Coffee {
     public Coffee(int temp, int conc) {
         this.temp = temp;
         this.conc = conc;
+        this.conc = conc;
+        this.conc = conc;
+        this.conc = conc;
+        this.conc = conc;
     }
 
     Coffee() {}
