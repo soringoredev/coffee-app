@@ -1,9 +1,8 @@
-public class ConcentrationException {
+public class ConcentrationException extends Exception {
     // props
     int c;
 
     // constructors
-
     public ConcentrationException(int c) {
         this.c = c;
     }
