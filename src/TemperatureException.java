@@ -3,7 +3,6 @@ public class TemperatureException extends Exception {
     int t;
 
     //constructors
-
     public TemperatureException(int t, String msg) {
         super(msg);
         this.t = t;

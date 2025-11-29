@@ -10,6 +10,8 @@ public class Coffee {
         this.conc = conc;
     }
 
+    Coffee() {}
+
     // getters
     public int getTemp() {
         return temp;
